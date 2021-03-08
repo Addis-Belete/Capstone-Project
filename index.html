@@ -30,17 +30,25 @@
     </header>
     <main>
       <h2>Delala...Your Gate to Homes in Addis Ababa</h2>
-      <form action="/action_page.php" class="px-3 bg-danger">
-        <label for="search">Search By keywords</label>
-        <input type="text" id="search" />
-        <input type="submit" value="Search" />
-        <ul>
-          <li><a href="villa.html" target="_blank">Villa</a></li>
-          <li><a href="#">Apartments</a></li>
+      <form action="">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myFunction()"
+          placeholder="Search for names.."
+          title="Type in a name"
+        />
+        <input type="button" value="Search" onclick="showDiv()" id="rich"/>
+        <ul id="myUL">
+          <li><a href="#">Villa</a></li>
+          <li><a href="apartment.html">Apartments</a></li>
+
           <li><a href="#">Condominuim</a></li>
-          <li><a href="#">one bedroom</a></li>
-          <li><a href="#">two bedroom</a></li>
-          <li><a href="#">three bedroom</a></li>
+          <li><a href="#">One bedroom</a></li>
+
+          <li><a href="#">Two bedroom</a></li>
+          <li><a href="#">Three bedroom</a></li>
+          <li><a href="#">Four bedroom</a></li>
         </ul>
       </form>
       <div>
@@ -49,5 +57,43 @@
         >
       </div>
     </main>
+ <h2>DELALA WORKS IN FOUR SIMPLE STEPS</h2>
+      <div>
+        <h3><i class="fas fa-search"></i> <br />1-SEARCH</h3>
+        <p>
+          It is a simple on. on Delala homepage enter the type of home you are
+          looking for and click on search. Alternatively click on the search
+          link on the top menu to view the list of all house types.
+        </p>
+      </div>
+      <div>
+        <h3><i class="fas fa-map-marked"></i> <br />2-LOCATE</h3>
+
+        <p>
+          It is a simple on. on Delala homepage enter the type of home you are
+          looking for and click on search. Alternatively click on the search
+          link on the top menu to view the list of all house types.
+        </p>
+      </div>
+      <div>
+        <h3><i class="fas fa-file-contract"></i> <br />3-APPLY</h3>
+        <p>
+          It is a simple on. on Delala homepage enter the type of home you are
+          looking for and click on search. Alternatively click on the search
+          link on the top menu to view the list of all house types.
+        </p>
+      </div>
+      <div>
+        <h3><i class="fas fa-umbrella-beach"></i> <br />1-RELAX</h3>
+        <p>
+          It is a simple on. on Delala homepage enter the type of home you are
+          looking for and click on search. Alternatively click on the search
+          link on the top menu to view the list of all house types.
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>

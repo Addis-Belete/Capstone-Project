@@ -52,6 +52,7 @@ form{
   padding: 20px;
 opacity: 0.7;
 
+
 label{
 text-transform: uppercase;
 }
@@ -66,7 +67,7 @@ width: 100%;
 
 }
 
-input[type=submit]{
+input[type=button]{
  width: 100%;
   background-color: $color;
   color: white;
@@ -80,10 +81,12 @@ input[type=submit]{
 
 ul{
 list-style:none;
-display:none;
+display: none;
+
 li{
 padding:10px;
 border-bottom: 1px solid gray;
+
 a{
 color:black;
 text-decoration: none;
