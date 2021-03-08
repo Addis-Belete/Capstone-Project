@@ -62,6 +62,18 @@ main form input[type=submit] {
   border: none;
   cursor: pointer;
 }
+main form ul {
+  list-style: none;
+  display: none;
+}
+main form ul li {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+main form ul li a {
+  color: black;
+  text-decoration: none;
+}
 main div {
   width: 200px;
   margin: 30px auto 0 auto;
