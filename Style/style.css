@@ -152,7 +152,7 @@ section div p {
   border-bottom: 1px solid gray;
 }
 .footer-nav ul li {
-  font-size: 10px;
+  font-size: 8px;
   list-style: none;
   padding: 5px;
   text-decoration: none;
@@ -160,6 +160,54 @@ section div p {
 .footer-nav ul li a {
   color: white;
   text-decoration: none;
+}
+.footer-nav .subscribe {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-nav .subscribe div h5 {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.footer-nav .subscribe div input {
+  padding: 3px;
+  border: 1px solid gray;
+  background-color: black;
+}
+.footer-nav .subscribe div button {
+  margin-left: -5px;
+  padding: 3px 15px;
+  background-color: gray;
+}
+.footer-nav .subscribe div p {
+  color: white;
+  font-size: 8px;
+  width: 90px;
+  text-align: center;
+}
+
+.send {
+  margin-top: -15px;
+}
+
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+.bottom-nav .icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
+.bottom-nav div p {
+  font-size: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */

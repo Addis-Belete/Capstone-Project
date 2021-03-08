@@ -186,7 +186,7 @@ justify-content: space-around;
 border-top: 1px solid gray;
 border-bottom: 1px solid gray;
 li{
-font-size: 10px;
+font-size: 8px;
 list-style: none;
 padding:5px;
 text-decoration: none;
@@ -198,5 +198,65 @@ text-decoration: none;
 
 }
 }
+.subscribe{
+width:100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+div{
+h5{
+color:white;
+font-size: 10px;
+text-align: center;
 
 }
+
+input{
+padding:3px;
+border: 1px solid gray;
+background-color: black;
+}
+
+button{
+margin-left: -5px;
+padding:3px 15px;
+background-color: gray;
+
+
+}
+p{
+color:white;
+font-size: 8px;
+width: 90px;
+text-align: center;
+}
+
+}
+}
+}
+
+.send{
+margin-top: -15px;
+}
+
+.bottom-nav{
+width: 100%;
+display:flex;
+justify-content: space-between;
+background-color: gray;
+.icons{
+width: 20%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+font-size: 10px;
+
+}
+div{
+p{
+font-size: 8px;
+
+}
+}
+}
+
