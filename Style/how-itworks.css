@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #993333;
+  margin-top: -15px;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 7vw;
+}
+
+header nav {
+  width: 300px;
+  padding-bottom: 15px;
+  
+margin: 0 auto;
+}
+
+header nav i {
+  padding-left: 45px;
+  color: white;
+}
+
+header nav span {
+  display: none;
+}
+
+section h2 {
+color:#993333;
+font-size: 13px;
+text-align: center;
+}
+
+ section div i{
+width:30%;
+margin-left:auto;
+margin-right: auto;
+
+}
+
+section div h3{
+font-size:12px;
+text-align: center;
+
+}
+
+section div p{
+width:90%;
+font-size: 11px;
+color:gray;
+margin:0 auto;
+text-align: center;
+
+
+}
+ 
+
