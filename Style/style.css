@@ -141,4 +141,25 @@ section div p {
   margin-top: 0;
 }
 
+.footer-nav {
+  background-color: black;
+}
+.footer-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.footer-nav ul li {
+  font-size: 10px;
+  list-style: none;
+  padding: 5px;
+  text-decoration: none;
+}
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */

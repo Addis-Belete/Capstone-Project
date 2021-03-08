@@ -176,3 +176,27 @@ background-color:gray;
 margin-top: 0;
 
 }
+
+.footer-nav{
+background-color: black;
+ul{
+width:100%;
+display: flex;
+justify-content: space-around;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+li{
+font-size: 10px;
+list-style: none;
+padding:5px;
+text-decoration: none;
+a{
+color:white;
+text-decoration: none;
+
+}
+
+}
+}
+
+}
