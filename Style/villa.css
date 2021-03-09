@@ -1,51 +1,225 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-image: url("https://www.google.com/search?q=home+image&sxsrf=ALeKk02vJ4BcEjCM8QJgSBq5G7yJlylx0Q:1615194459853&tbm=isch&source=iu&ictx=1&fir=-9N0l856EaVRmM%252C7fs5x1A3Pcm4wM%252C_&vet=1&usg=AI4_-kTEgoJeFwTiXb_Q3jiMOi-EmpZvNg&sa=X&ved=2ahUKEwj55ZagrKDvAhXST8AKHQZcDTAQ9QF6BAgHEAE#imgrc=-9N0l856EaVRmM");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 header {
   background-color: #993333;
   margin-top: -30px;
+}
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 header h1 {
   text-align: center;
   color: white;
   font-size: 40px;
 }
+@media (min-width: 768px) {
+  header h1 {
+    padding-left: 40px;
+  }
+}
 header nav {
   width: 300px;
   margin: 0 auto;
   padding-bottom: 15px;
 }
+@media (min-width: 768px) {
+  header nav {
+    width: 400px;
+    padding-top: 20px;
+    justify-content: end;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  header nav {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+}
 header nav i {
   padding-left: 50px;
   color: white;
 }
+@media (min-width: 768px) {
+  header nav i {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  header nav i {
+    padding-top: 20px;
+  }
+}
 header nav span {
   display: none;
 }
-
-main div img{
-width: 100%;
-height: auto;
-margin-top:20px;
-
+@media (min-width: 1024px) {
+  header nav span {
+    display: block;
+    margin-top: -25px;
+    padding-left: 80px;
+  }
 }
-main div address{
-margin-top: 10px;
+@media (min-width: 1024px) {
+  header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+  }
 }
 
-main div p{
-width:30%;
-background-color: #993333;
-color:white;
-padding:10px;
-text-align: center;
-
+.footer-nav {
+  background-color: black;
 }
+.footer-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+.footer-nav ul li {
+  font-size: 8px;
+  list-style: none;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .footer-nav ul li {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .footer-nav ul li {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav .subscribe {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-nav .subscribe div h5 {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div h5 {
+    font-size: 17px;
+  }
+}
+.footer-nav .subscribe div input {
+  padding: 3px;
+  border: 1px solid gray;
+  background-color: black;
+}
+.footer-nav .subscribe div button {
+  margin-left: -5px;
+  padding: 3px 15px;
+  background-color: gray;
+}
+.footer-nav .subscribe div p {
+  color: white;
+  font-size: 8px;
+  width: 90px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div p {
+    font-size: 12px;
+    width: 200px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .footer-nav .subscribe div p {
+    font-size: 13px;
+  }
+}
+
+.send {
+  margin-top: -30px;
+}
+
+.contact {
+  margin-top: -10px;
+}
+
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+@media (min-width: 1024px) {
+  .bottom-nav {
+    justify-content: space-around;
+  }
+}
+.bottom-nav .icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  .bottom-nav .icons {
+    font-size: 15px;
+    width: 30%;
+  }
+}
+.bottom-nav div p {
+  font-size: 8px;
+}
+@media (min-width: 768px) {
+  .bottom-nav div p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+main div img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  main div img {
+    max-width: 100%;
+    height: 200px;
+  }
+}
+main div p {
+  width: 30%;
+  background-color: #993333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=villa.css.map */

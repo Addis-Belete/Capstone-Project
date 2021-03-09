@@ -1,0 +1,39 @@
+@import "header";
+@import "footer";
+$breakpoint-tablet:768px;
+$breakpoint-desktop:1024px;
+main{
+@media (min-width:$breakpoint-tablet){
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap:20px ;
+@media (min-width:$breakpoint-desktop){
+grid-template-columns: 1fr 1fr 1fr 1fr;
+width:100%;
+
+margin-left: 0;
+}
+
+}
+div{
+img{
+width: 100%;
+height: auto;
+margin-top:20px;
+@media (min-width:$breakpoint-tablet){
+max-width: 100%;
+height: 200px;
+
+}
+}
+p{
+width:30%;
+background-color: #993333;
+color:white;
+padding:10px;
+text-align: center;
+
+}
+
+}
+}
