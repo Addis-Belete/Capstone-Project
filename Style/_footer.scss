@@ -1,132 +1,141 @@
-$color:rgb(153, 51, 51) ;
+$color:rgb(153, 51, 51);
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 
-.footer-nav{
-background-color: black;
-ul{
-width:100%;
-display: flex;
-padding:5px 0;
-justify-content: space-around;
-border-top: 1px solid gray;
-border-bottom: 1px solid gray;
-li{
-font-size: 8px;
-list-style: none;
+.footer-nav {
+  background-color: black;
 
-text-decoration: none;
-@media (min-width:$breakpoint-tablet){
-width:100%;
-font-size: 12px;
-@media (min-width:$breakpoint-desktop){
-font-size: 14px;
-font-weight: bolder;
+  ul {
+    width: 100%;
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 
-}
-}
-a{
-color:white;
-text-decoration: none;
+    li {
+      font-size: 8px;
+      list-style: none;
+      text-decoration: none;
 
-}
+      @media (min-width: $breakpoint-tablet) {
+        width: 100%;
+        font-size: 12px;
 
-}
-}
-.subscribe{
-width:100%;
-display: flex;
-justify-content: space-around;
-align-items: center;
-div{
-h5{
-color:white;
-font-size: 10px;
-text-align: center;
-@media (min-width:$breakpoint-tablet){
-font-size: 17px;
+        @media (min-width: $breakpoint-desktop) {
+          font-size: 14px;
+          font-weight: bolder;
+        }
+      }
 
-}
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
 
-}
+  .subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-input{
-width:70px;
-padding:3px 0;
-border: 1px solid gray;
-background-color: black;
-@media (min-width:$breakpoint-tablet){
-width: 150px;
-}
-}
+    div {
+      h5 {
+        color: white;
+        font-size: 10px;
+        text-align: center;
 
-button{
-margin-left: -5px;
-padding:3px 7px;
-background-color: gray;
-@media (min-width:$breakpoint-tablet){
-padding:3px 15px;
-}
+        @media (min-width: $breakpoint-tablet) {
+          font-size: 17px;
+        }
+      }
 
-}
-p{
-color:white;
-font-size: 8px;
-width: 90px;
-text-align: center;
-@media (min-width:$breakpoint-tablet){
-font-size: 12px;
-width: 200px;
-@media (min-width:$breakpoint-desktop){
-font-size: 13px;
+      input {
+        width: 70px;
+        padding: 3px 0;
+        border: 1px solid gray;
+        background-color: black;
 
-}
-}
-}
+        @media (min-width: $breakpoint-tablet) {
+          width: 150px;
+        }
+      }
 
-}
-}
-}
+      button {
+        margin-left: -5px;
+        padding: 3px 7px;
+        background-color: gray;
 
-.send{
-margin-top: -30px;
-}
+        @media (min-width: $breakpoint-tablet) {
+          padding: 3px 15px;
+        }
+      }
 
-.contact{
-margin-top: -10px;
+      p {
+        color: white;
+        font-size: 8px;
+        width: 90px;
+        text-align: center;
 
+        @media (min-width: $breakpoint-tablet) {
+          font-size: 12px;
+          width: 200px;
+
+          @media (min-width: $breakpoint-desktop) {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
 }
 
-.bottom-nav{
-width: 100%;
-display:flex;
-justify-content: space-between;
-background-color: gray;
-@media (min-width:$breakpoint-desktop){
-justify-content: space-around;
+.send {
+  margin-top: -30px;
 }
 
-.icons{
-width: 30%;
-display:flex;
-justify-content: space-around;
-align-items: center;
-font-size: 10px;
-@media (min-width:$breakpoint-tablet){
-font-size: 15px;
-width:30%;
+.contact {
+  margin-top: -10px;
 }
 
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+
+  @media (min-width: $breakpoint-desktop) {
+    justify-content: space-around;
+  }
+
+  .icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 12px;
+    }
+  }
 }
-div{
-p{
-width:70%;
-font-size: 8px;
-margin-left: 50px;
-@media (min-width:$breakpoint-tablet){
-font-size: 12px;
-width:80%;
-}
-}
-}
+
+footer .bottom-nav .bottom-left-nav {
+  p {
+    width: 70%;
+    font-size: 8px;
+    margin-left: 50px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 12px;
+      width: 80%;
+
+      @media (min-width: $breakpoint-desktop) {
+        font-size: 15px;
+      }
+    }
+  }
 }

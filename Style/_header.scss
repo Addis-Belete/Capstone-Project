@@ -1,71 +1,76 @@
-$color:rgb(153, 51, 51) ;
+$color:rgb(153, 51, 51);
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
+
 header {
-background-color:$color;
-margin-top: -30px;
-@media (min-width:$breakpoint-tablet){
-display: flex;
-justify-content: space-between;
-align-items: center;}
+  background-color: $color;
+  margin-top: -30px;
 
-h1{
-text-align: center;
-color:white;
-font-size: 40px;
-@media (min-width:$breakpoint-tablet){
-padding-left: 40px;
-}
-}
-nav{
-width:300px;
-margin:0 auto;
-padding-bottom:15px;
-@media (min-width:$breakpoint-tablet){
-width:400px;
-padding-top:20px;
-justify-content: end;
+  @media (min-width: $breakpoint-tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-@media (min-width:$breakpoint-desktop){
-width: 500px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: -20px;
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
 
+    @media (min-width: $breakpoint-tablet) {
+      padding-left: 40px;
+    }
+  }
 
-}
-}
-i{
-padding-left:50px;
-color:white;
-@media (min-width:$breakpoint-tablet){
-font-size: 25px;
+  nav {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 15px;
 
-@media (min-width:$breakpoint-desktop){
-padding-top: 20px;
+    @media (min-width: $breakpoint-tablet) {
+      width: 400px;
+      padding-top: 20px;
+      justify-content: end;
 
-}
-}
-}
-span{
-display: none;
-@media (min-width:$breakpoint-desktop){
-display: block;
-margin-top:-25px;
-padding-left: 80px;
-}
-}
-}
-a{
-@media (min-width:$breakpoint-desktop){
-font-size: 20px;
-text-decoration: none;
-color:white;
-padding-left: 50px;
+      @media (min-width: $breakpoint-desktop) {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+      }
+    }
 
+    i {
+      padding-left: 50px;
+      color: white;
 
-}
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 25px;
 
-}
+        @media (min-width: $breakpoint-desktop) {
+          padding-top: 20px;
+        }
+      }
+    }
+
+    span {
+      display: none;
+
+      @media (min-width: $breakpoint-desktop) {
+        display: block;
+        margin-top: -25px;
+        padding-left: 80px;
+      }
+    }
+  }
+
+  a {
+    @media (min-width: $breakpoint-desktop) {
+      font-size: 20px;
+      text-decoration: none;
+      color: white;
+      padding-left: 50px;
+    }
+  }
 }

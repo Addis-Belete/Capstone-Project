@@ -188,19 +188,24 @@ header nav span {
 }
 @media (min-width: 768px) {
   .bottom-nav .icons {
-    font-size: 15px;
-    width: 30%;
+    font-size: 12px;
   }
 }
-.bottom-nav div p {
+
+footer .bottom-nav .bottom-left-nav p {
   width: 70%;
   font-size: 8px;
   margin-left: 50px;
 }
 @media (min-width: 768px) {
-  .bottom-nav div p {
+  footer .bottom-nav .bottom-left-nav p {
     font-size: 12px;
     width: 80%;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  footer .bottom-nav .bottom-left-nav p {
+    font-size: 15px;
   }
 }
 
@@ -231,7 +236,7 @@ main div img {
 }
 main div p {
   width: 30%;
-  background-color: #993333;
+  background-color: #933;
   color: white;
   padding: 10px;
   text-align: center;
