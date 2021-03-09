@@ -1,4 +1,6 @@
-
+$color:rgb(153, 51, 51) ;
+$breakpoint-tablet:768px;
+$breakpoint-desktop:1024px;
 .footer-nav{
 background-color: black;
 ul{
@@ -12,6 +14,14 @@ font-size: 8px;
 list-style: none;
 padding:5px;
 text-decoration: none;
+@media (min-width:$breakpoint-tablet){
+font-size: 12px;
+@media (min-width:$breakpoint-desktop){
+font-size: 14px;
+font-weight: bolder;
+
+}
+}
 a{
 color:white;
 text-decoration: none;
@@ -30,6 +40,10 @@ h5{
 color:white;
 font-size: 10px;
 text-align: center;
+@media (min-width:$breakpoint-tablet){
+font-size: 17px;
+
+}
 
 }
 
@@ -51,6 +65,14 @@ color:white;
 font-size: 8px;
 width: 90px;
 text-align: center;
+@media (min-width:$breakpoint-tablet){
+font-size: 12px;
+width: 200px;
+@media (min-width:$breakpoint-desktop){
+font-size: 13px;
+
+}
+}
 }
 
 }
@@ -71,18 +93,28 @@ width: 100%;
 display:flex;
 justify-content: space-between;
 background-color: gray;
+@media (min-width:$breakpoint-desktop){
+justify-content: space-around;
+}
+
 .icons{
 width: 20%;
 display:flex;
 justify-content: space-around;
 align-items: center;
 font-size: 10px;
+@media (min-width:$breakpoint-tablet){
+font-size: 15px;
+width:30%;
+}
 
 }
 div{
 p{
 font-size: 8px;
-
+@media (min-width:$breakpoint-tablet){
+font-size: 12px;
+}
 }
 }
 }

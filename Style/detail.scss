@@ -1,5 +1,7 @@
 @import "header";
 @import "footer";
+$breakpoint-tablet:768px;
+$breakpoint-desktop:1024px;
 
 main{
 div{ 
@@ -7,6 +9,13 @@ div{
 h1{
 color:#993333;
 margin-left:20px;
+@media (min-width:$breakpoint-tablet){
+margin-bottom: -20px;
+}
+@media (min-width:$breakpoint-desktop){
+margin-left: 12%;
+margin-bottom: -20px;
+}
 }
 ul{
 li{
@@ -21,12 +30,17 @@ margin-left:-20px;
 
 }
 button{
-width:100px;
+width:200px;
 padding:10px 20px;
-background-color: rgb(14, 164, 223);
+background-color: $color;
 float:right;
-margin-right: 20px;
+
 margin-top: -5px;
+color:white;
+@media (min-width:$breakpoint-desktop){
+margin-right: 10%;
+
+}
 
 }
 
@@ -34,7 +48,13 @@ margin-top: -5px;
 button{
 width:100%;
 padding:10px;
-font-size: 15px;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 10px;
+@media (min-width:$breakpoint-desktop){
+width:80%;
+margin-left: 10%;
+}
 
 }
 div {
@@ -45,7 +65,15 @@ font-size: 17px;
 }
 img{
 width: 100%;
+@media (min-width:$breakpoint-tablet){
+height: 400px;
+}
+@media (min-width:$breakpoint-desktop){
+width: 90%;
+height: 400px;
+margin-left: 5%;
 
+}
 
 }
 
@@ -53,7 +81,23 @@ width: 100%;
 p{
 margin-top: 10px;
 clear: right;
-
+@media (min-width:$breakpoint-desktop){
+width: 90%;
+margin-left: 5%;
+}
 
 }
+}
+@media (min-width:$breakpoint-tablet){
+.list{
+display: grid;
+grid-template-columns: 1fr 1fr;
+@media (min-width:$breakpoint-desktop){
+width: 80%;
+margin-left: 10%;
+
+}
+
+}
+
 }
