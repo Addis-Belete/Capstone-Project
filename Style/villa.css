@@ -236,5 +236,9 @@ main div p {
   padding: 10px;
   text-align: center;
 }
+main div a {
+  color: white;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=villa.css.map */
