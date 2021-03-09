@@ -3,10 +3,9 @@
 }
 
 body {
-  background-image: url("https://www.google.com/search?q=home+image&sxsrf=ALeKk02vJ4BcEjCM8QJgSBq5G7yJlylx0Q:1615194459853&tbm=isch&source=iu&ictx=1&fir=-9N0l856EaVRmM%252C7fs5x1A3Pcm4wM%252C_&vet=1&usg=AI4_-kTEgoJeFwTiXb_Q3jiMOi-EmpZvNg&sa=X&ved=2ahUKEwj55ZagrKDvAhXST8AKHQZcDTAQ9QF6BAgHEAE#imgrc=-9N0l856EaVRmM");
+  background-image: url("Assets/background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 header {
@@ -62,6 +61,12 @@ main form input[type=button] {
   border: none;
   cursor: pointer;
 }
+@media (min-width: 768px) {
+  main form input[type=button] {
+    width: 100px;
+    font-size: 17px;
+  }
+}
 main form ul {
   list-style: none;
   display: none;
@@ -81,6 +86,13 @@ main div {
 main div button {
   padding: 10px;
 }
+@media (min-width: 768px) {
+  main div button {
+    width: 300px;
+    padding: 20 40px;
+    font-size: 17px;
+  }
+}
 
 section h2 {
   margin-top: 20px;
@@ -88,14 +100,29 @@ section h2 {
   font-size: 13px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  section h2 {
+    font-size: 25px;
+  }
+}
 section div i {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 768px) {
+  section div i {
+    font-size: 30px;
+  }
+}
 section div h3 {
   font-size: 13px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  section div h3 {
+    font-size: 20px;
+  }
 }
 section div p {
   width: 90%;
@@ -103,6 +130,11 @@ section div p {
   color: gray;
   margin: 0 auto;
   text-align: center;
+}
+@media (min-width: 768px) {
+  section div p {
+    font-size: 17px;
+  }
 }
 
 .register {
@@ -157,6 +189,11 @@ section div p {
   padding: 5px;
   text-decoration: none;
 }
+@media (min-width: 768px) {
+  .footer-nav ul li {
+    font-size: 12px;
+  }
+}
 .footer-nav ul li a {
   color: white;
   text-decoration: none;
@@ -171,6 +208,11 @@ section div p {
   color: white;
   font-size: 10px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div h5 {
+    font-size: 17px;
+  }
 }
 .footer-nav .subscribe div input {
   padding: 3px;
@@ -187,6 +229,12 @@ section div p {
   font-size: 8px;
   width: 90px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div p {
+    font-size: 12px;
+    width: 200px;
+  }
 }
 
 .send {
@@ -210,8 +258,50 @@ section div p {
   align-items: center;
   font-size: 10px;
 }
+@media (min-width: 768px) {
+  .bottom-nav .icons {
+    font-size: 15px;
+    width: 30%;
+  }
+}
 .bottom-nav div p {
   font-size: 8px;
+}
+@media (min-width: 768px) {
+  .bottom-nav div p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    padding-left: 40px;
+  }
+  header nav {
+    width: 400px;
+    padding-top: 20px;
+    justify-content: end;
+  }
+  header nav i {
+    font-size: 25px;
+    padding-left: 70px;
+  }
+
+  form {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .how-tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+$color:rgb(153, 51, 51) ;
+
+* {
+box-sizing:border-box;
+}
+
+body{
+background-image: url("https://www.google.com/search?q=home+image&sxsrf=ALeKk02vJ4BcEjCM8QJgSBq5G7yJlylx0Q:1615194459853&tbm=isch&source=iu&ictx=1&fir=-9N0l856EaVRmM%252C7fs5x1A3Pcm4wM%252C_&vet=1&usg=AI4_-kTEgoJeFwTiXb_Q3jiMOi-EmpZvNg&sa=X&ved=2ahUKEwj55ZagrKDvAhXST8AKHQZcDTAQ9QF6BAgHEAE#imgrc=-9N0l856EaVRmM");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+header {
+background-color:$color;
+margin-top: -30px;
+
+h1{
+text-align: center;
+color:white;
+font-size: 40px;
+}
+nav{
+width:300px;
+margin:0 auto;
+padding-bottom:15px;
+
+i{
+padding-left:50px;
+color:white;
+
+}
+span{
+display: none;
+
+}
+}
+}

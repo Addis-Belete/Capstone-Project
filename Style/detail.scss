@@ -1,0 +1,59 @@
+@import "header";
+@import "footer";
+
+main{
+div{ 
+
+h1{
+color:#993333;
+margin-left:20px;
+}
+ul{
+li{
+width:100%;
+list-style: none;
+padding:10px;
+border:1px solid gray;
+margin-top:5px;
+text-align: center;
+margin-left:-20px;
+}
+
+}
+button{
+width:100px;
+padding:10px 20px;
+background-color: rgb(14, 164, 223);
+float:right;
+margin-right: 20px;
+margin-top: -5px;
+
+}
+
+}
+button{
+width:100%;
+padding:10px;
+font-size: 15px;
+
+}
+div {
+h2{
+color:#993333;
+text-align: center;
+font-size: 17px;
+}
+img{
+width: 100%;
+
+
+}
+
+}
+p{
+margin-top: 10px;
+clear: right;
+
+
+}
+}
