@@ -286,15 +286,17 @@ background-color: black;
 ul{
 width:100%;
 display: flex;
+padding:5px 0;
 justify-content: space-around;
 border-top: 1px solid gray;
 border-bottom: 1px solid gray;
 li{
 font-size: 8px;
 list-style: none;
-padding:5px;
+
 text-decoration: none;
 @media (min-width:$breakpoint-tablet){
+width:100%;
 font-size: 12px;
 @media (min-width:$breakpoint-desktop){
 font-size: 14px;

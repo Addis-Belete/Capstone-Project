@@ -280,11 +280,11 @@ section div p {
 .footer-nav ul li {
   font-size: 8px;
   list-style: none;
-  padding: 5px;
   text-decoration: none;
 }
 @media (min-width: 768px) {
   .footer-nav ul li {
+    width: 100%;
     font-size: 12px;
   }
 }

@@ -82,11 +82,11 @@ header nav span {
   justify-content: space-around;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+  padding: 5px 0;
 }
 .footer-nav ul li {
   font-size: 8px;
   list-style: none;
-  padding: 5px;
   text-decoration: none;
 }
 @media (min-width: 768px) {

@@ -3,16 +3,18 @@ $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 .footer-nav{
 background-color: black;
+
 ul{
 width:100%;
 display: flex;
 justify-content: space-around;
 border-top: 1px solid gray;
 border-bottom: 1px solid gray;
+padding: 5px 0;
 li{
 font-size: 8px;
 list-style: none;
-padding:5px;
+
 text-decoration: none;
 @media (min-width:$breakpoint-tablet){
 font-size: 12px;
