@@ -1,59 +1,70 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name :CAPSTONE PROJECT
 
-> One paragraph statement about the project.
+> Delala is a web page app that is built by taken Patashule's web page as a reference. the layout is fully taken from Patashule. but the content is different. I used HTML and CSS to build the web page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Assets/delala.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
 - Major languages
-- Frameworks
-- Technologies used
+- HTML &
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://addis0943.github.io/Capstone-Project/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Computer
+- Internet Connection
+- basic Knowledge of Html and css
+
 ### Setup
+
+- Vs Code
+- Git
+- github
 
 ### Install
 
-### Usage
+- VS code
+- Git
+- Github
 
-### Run tests
+## To get local copy up and running follow these simple example steps
+
+- git clone git@github.com:Addis0943/Capstone-Project.git
+- cd Capstone-Project
+- git checkout -b
+
+### Linters.
+
+Install some dependencies by running the following command
+
+npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+
+Run the following command to check linters
+
+npx stylelint "\*_/_.{css,scss}"
 
 ### Deployment
 
-
-
-## Authors
+Install and run a live server plugin on your Text editor.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Addis0943](https://github.com/Addis0943)
+- Twitter: [@Addis32018084](https://twitter.com/Addis32018084)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/addis-belete-134b98191/)
 
 ## 🤝 Contributing
 
@@ -67,9 +78,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Mathew Njuguna and others on Behance
 
 ## 📝 License
 
