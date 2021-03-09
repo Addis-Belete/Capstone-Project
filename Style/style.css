@@ -3,38 +3,108 @@
 }
 
 body {
-  background-image: url("Assets/background.jpeg");
+  background: url(Assets/background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 header {
   background-color: #993333;
   margin-top: -30px;
 }
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 header h1 {
   text-align: center;
   color: white;
   font-size: 40px;
+}
+@media (min-width: 768px) {
+  header h1 {
+    padding-left: 40px;
+  }
 }
 header nav {
   width: 300px;
   margin: 0 auto;
   padding-bottom: 15px;
 }
+@media (min-width: 768px) {
+  header nav {
+    width: 400px;
+    padding-top: 20px;
+    justify-content: end;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  header nav {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+}
 header nav i {
   padding-left: 50px;
   color: white;
 }
+@media (min-width: 768px) {
+  header nav i {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  header nav i {
+    padding-top: 20px;
+  }
+}
 header nav span {
   display: none;
 }
+@media (min-width: 1024px) {
+  header nav span {
+    display: block;
+    margin-top: -25px;
+    padding-left: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+  }
+}
 
+main {
+  background: url(https://lh3.googleusercontent.com/GXDtEzB4C7AyP4y6QNNQ7aI29htoZ2Ke3GiR3jNNGTLb1A3HtlkZAwpg550zoIVvdyRCyQ=s128) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #993333;
+}
 main h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 5vw;
-  margin-top: 60px;
+  padding-top: 60px;
+  margin-top: 0px;
+  color: white;
+}
+@media (min-width: 768px) {
+  main h2 {
+    font-size: 3vw;
+  }
 }
 main form {
   border-radius: 10px;
@@ -44,6 +114,7 @@ main form {
 }
 main form label {
   text-transform: uppercase;
+  display: block;
 }
 main form input[type=text] {
   width: 100%;
@@ -63,7 +134,7 @@ main form input[type=button] {
 }
 @media (min-width: 768px) {
   main form input[type=button] {
-    width: 100px;
+    width: 200px;
     font-size: 17px;
   }
 }
@@ -150,17 +221,40 @@ section div p {
 .register div h4 {
   color: #f2f2f2;
 }
+@media (min-width: 1024px) {
+  .register div h4 {
+    font-size: 30px;
+  }
+}
 .register div p {
   color: white;
+}
+@media (min-width: 1024px) {
+  .register div p {
+    font-size: large;
+    margin-top: -20px;
+  }
 }
 .register div button {
   color: #993333;
   padding: 5px;
 }
+@media (min-width: 1024px) {
+  .register div button {
+    font-size: large;
+    font-weight: bolder;
+  }
+}
 .register img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+@media (min-width: 1024px) {
+  .register img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .register1 {
@@ -192,6 +286,12 @@ section div p {
 @media (min-width: 768px) {
   .footer-nav ul li {
     font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .footer-nav ul li {
+    font-size: 14px;
+    font-weight: bolder;
   }
 }
 .footer-nav ul li a {
@@ -236,6 +336,11 @@ section div p {
     width: 200px;
   }
 }
+@media (min-width: 768px) and (min-width: 1024px) {
+  .footer-nav .subscribe div p {
+    font-size: 13px;
+  }
+}
 
 .send {
   margin-top: -30px;
@@ -250,6 +355,11 @@ section div p {
   display: flex;
   justify-content: space-between;
   background-color: gray;
+}
+@media (min-width: 1024px) {
+  .bottom-nav {
+    justify-content: space-around;
+  }
 }
 .bottom-nav .icons {
   width: 20%;
@@ -274,24 +384,6 @@ section div p {
 }
 
 @media (min-width: 768px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header h1 {
-    padding-left: 40px;
-  }
-  header nav {
-    width: 400px;
-    padding-top: 20px;
-    justify-content: end;
-  }
-  header nav i {
-    font-size: 25px;
-    padding-left: 70px;
-  }
-
   form {
     width: 80%;
     display: flex;
@@ -302,6 +394,9 @@ section div p {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+.row {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
