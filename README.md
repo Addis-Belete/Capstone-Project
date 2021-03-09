@@ -2,7 +2,7 @@
 
 # Project Name :CAPSTONE PROJECT
 
-> Delala is a web page app that is built by taken Patashule's web page as a reference. the layout is fully taken from Patashule. but the content is different. I used HTML and CSS to build the web page.
+> Delala is a web page app that is built by taken Patashule's web page as a reference. the layout is fully taken from Patashule. but the content is different.it is rendered to three screen sizes. I used HTML and CSS to build the web page.
 
 ![screenshot](./Assets/delala.png)
 
@@ -17,6 +17,7 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://addis0943.github.io/Capstone-Project/)
+[Vedio-Link](https://www.loom.com/share/34ba09836de349dd871da004903a9851)
 
 ## Getting Started
 
