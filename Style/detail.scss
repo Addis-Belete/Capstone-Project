@@ -50,10 +50,11 @@ width:100%;
 padding:10px;
 font-size: 20px;
 font-weight: bold;
-letter-spacing: 10px;
+letter-spacing: 5px;
 @media (min-width:$breakpoint-desktop){
 width:80%;
 margin-left: 10%;
+letter-spacing: 10px;
 }
 
 }
