@@ -79,10 +79,10 @@ header nav span {
 .footer-nav ul {
   width: 100%;
   display: flex;
+  padding: 5px 0;
   justify-content: space-around;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-  padding: 5px 0;
 }
 .footer-nav ul li {
   font-size: 8px;
@@ -91,6 +91,7 @@ header nav span {
 }
 @media (min-width: 768px) {
   .footer-nav ul li {
+    width: 100%;
     font-size: 12px;
   }
 }
@@ -121,14 +122,25 @@ header nav span {
   }
 }
 .footer-nav .subscribe div input {
-  padding: 3px;
+  width: 70px;
+  padding: 3px 0;
   border: 1px solid gray;
   background-color: black;
 }
+@media (min-width: 768px) {
+  .footer-nav .subscribe div input {
+    width: 150px;
+  }
+}
 .footer-nav .subscribe div button {
   margin-left: -5px;
-  padding: 3px 15px;
+  padding: 3px 7px;
   background-color: gray;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div button {
+    padding: 3px 15px;
+  }
 }
 .footer-nav .subscribe div p {
   color: white;
@@ -168,7 +180,7 @@ header nav span {
   }
 }
 .bottom-nav .icons {
-  width: 20%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -181,11 +193,14 @@ header nav span {
   }
 }
 .bottom-nav div p {
+  width: 70%;
   font-size: 8px;
+  margin-left: 50px;
 }
 @media (min-width: 768px) {
   .bottom-nav div p {
     font-size: 12px;
+    width: 80%;
   }
 }
 
@@ -207,23 +222,32 @@ main div h1 {
 main div ul li {
   width: 100%;
   list-style: none;
-  padding: 10px;
+  padding: 10px 0;
   border: 1px solid gray;
   margin-top: 5px;
   text-align: center;
   margin-left: -20px;
 }
 main div button {
-  width: 200px;
-  padding: 10px 20px;
+  width: 100px;
+  padding: 10px 10px;
   background-color: #993333;
   float: right;
+  font-size: 10px;
   margin-top: -5px;
   color: white;
+  margin-right: 7%;
+}
+@media (min-width: 768px) {
+  main div button {
+    width: 200px;
+    padding: 10px 20px;
+    margin-right: 2%;
+  }
 }
 @media (min-width: 1024px) {
   main div button {
-    margin-right: 10%;
+    margin-right: 12%;
   }
 }
 main button {

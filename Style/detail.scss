@@ -21,7 +21,7 @@ ul{
 li{
 width:100%;
 list-style: none;
-padding:10px;
+padding:10px 0;
 border:1px solid gray;
 margin-top:5px;
 text-align: center;
@@ -30,15 +30,22 @@ margin-left:-20px;
 
 }
 button{
-width:200px;
-padding:10px 20px;
+width:100px;
+padding:10px 10px;
 background-color: $color;
 float:right;
-
+font-size: 10px;
 margin-top: -5px;
 color:white;
+margin-right: 7%;
+@media (min-width:$breakpoint-tablet){
+width:200px;
+padding:10px 20px;
+margin-right: 2%;
+
+}
 @media (min-width:$breakpoint-desktop){
-margin-right: 10%;
+margin-right: 12%;
 
 }
 

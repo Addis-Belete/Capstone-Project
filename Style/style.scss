@@ -330,16 +330,22 @@ font-size: 17px;
 }
 
 input{
-padding:3px;
+width:70px;
+padding:3px 0;
 border: 1px solid gray;
 background-color: black;
+@media (min-width:$breakpoint-tablet){
+width: 150px;
+}
 }
 
 button{
 margin-left: -5px;
-padding:3px 15px;
+padding:3px 7px;
 background-color: gray;
-
+@media (min-width:$breakpoint-tablet){
+padding:3px 15px;
+}
 
 }
 p{
@@ -380,7 +386,7 @@ justify-content: space-around;
 }
 
 .icons{
-width: 20%;
+width: 30%;
 display:flex;
 justify-content: space-around;
 align-items: center;
@@ -393,9 +399,12 @@ width:30%;
 }
 div{
 p{
+width:70%;
 font-size: 8px;
+margin-left: 50px;
 @media (min-width:$breakpoint-tablet){
 font-size: 12px;
+width:80%;
 }
 }
 }
