@@ -190,7 +190,11 @@ section div p {
 }
 
 .send {
-  margin-top: -15px;
+  margin-top: -30px;
+}
+
+.contact {
+  margin-top: -10px;
 }
 
 .bottom-nav {
