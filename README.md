@@ -69,7 +69,7 @@ Install and run a live server plugin on your Text editor.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Addis0943/Capstone-Project/issues/3/).
 
 ## Show your support
 
