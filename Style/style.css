@@ -47,6 +47,7 @@ header nav {
   header nav {
     width: 500px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: -20px;
@@ -210,6 +211,7 @@ section div p {
 
 .register {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: #933;
@@ -273,6 +275,7 @@ section div p {
 .footer-nav ul {
   width: 100%;
   display: flex;
+  flex-direction: row;
   padding: 5px 0;
   justify-content: space-around;
   border-top: 1px solid gray;
@@ -302,6 +305,7 @@ section div p {
 .footer-nav .subscribe {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }

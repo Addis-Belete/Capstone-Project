@@ -1,4 +1,5 @@
 $color:rgb(153, 51, 51);
+$color2:white;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 
@@ -8,13 +9,14 @@ header {
 
   @media (min-width: $breakpoint-tablet) {
     display: flex;
+flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 
   h1 {
     text-align: center;
-    color: white;
+    color: $color2;
     font-size: 40px;
 
     @media (min-width: $breakpoint-tablet) {
@@ -43,7 +45,7 @@ header {
 
     i {
       padding-left: 50px;
-      color: white;
+      color: $color2;
 
       @media (min-width: $breakpoint-tablet) {
         font-size: 25px;
@@ -69,7 +71,7 @@ header {
     @media (min-width: $breakpoint-desktop) {
       font-size: 20px;
       text-decoration: none;
-      color: white;
+      color: $color2;
       padding-left: 50px;
     }
   }
