@@ -42,9 +42,10 @@ $breakpoint-desktop:1024px;
       @media (min-width: $breakpoint-tablet) {
         width: 80px;
       }
- @media (min-width: $breakpoint-desktop){
-width: 100%;
-}
+
+      @media (min-width: $breakpoint-desktop) {
+        width: 100%;
+      }
     }
 
     select {
