@@ -118,7 +118,7 @@
   }
 }
 .bottom-nav .icons {
-  width: 30%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -297,11 +297,13 @@ main form input[type=button] {
     width: 200px;
     font-size: 17px;
     background-color: blue;
+    opacity: 0.5;
   }
 }
 @media (min-width: 1024px) {
   main form input[type=button] {
     background-color: #d45649;
+    opacity: 0.5;
   }
 }
 main form ul {

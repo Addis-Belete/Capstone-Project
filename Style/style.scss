@@ -76,9 +76,11 @@ main {
         width: 200px;
         font-size: 17px;
 background-color:blue;
+opacity: 0.5;
       }
  @media (min-width: $breakpoint-desktop){
 background-color: $color;
+opacity: 0.5;
 }
     }
 
