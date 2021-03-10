@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #993333;
+  background-color: #d45649;
   margin-top: -30px;
 }
 @media (min-width: 768px) {
@@ -126,7 +126,7 @@ main form input[type=text] {
 }
 main form input[type=button] {
   width: 100%;
-  background-color: #993333;
+  background-color: #d45649;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -214,7 +214,7 @@ section div p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #933;
+  background-color: #e27f65;
   margin-top: 20px;
 }
 .register div {
@@ -260,12 +260,12 @@ section div p {
 }
 
 .register1 {
-  background-color: #39f;
+  background-color: #519cd8;
   margin-top: 0;
 }
 
 .register2 {
-  background-color: gray;
+  background-color: #98a5a6;
   margin-top: 0;
 }
 
@@ -370,7 +370,7 @@ section div p {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #1F1F1F;
 }
 @media (min-width: 1024px) {
   .bottom-nav {
@@ -383,6 +383,7 @@ section div p {
   justify-content: space-around;
   align-items: center;
   font-size: 10px;
+  color: white;
 }
 @media (min-width: 768px) {
   .bottom-nav .icons {
@@ -395,6 +396,7 @@ footer .bottom-nav .bottom-left-nav p {
   width: 70%;
   font-size: 8px;
   margin-left: 50px;
+  color: white;
 }
 @media (min-width: 768px) {
   footer .bottom-nav .bottom-left-nav p {

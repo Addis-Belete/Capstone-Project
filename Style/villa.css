@@ -1,10 +1,11 @@
 header {
-  background-color: #993333;
+  background-color: #d45649;
   margin-top: -30px;
 }
 @media (min-width: 768px) {
   header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -79,6 +80,7 @@ header nav span {
 .footer-nav ul {
   width: 100%;
   display: flex;
+  flex-direction: row;
   padding: 5px 0;
   justify-content: space-around;
   border-top: 1px solid gray;
@@ -107,9 +109,13 @@ header nav span {
 }
 .footer-nav .subscribe {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 .footer-nav .subscribe div h5 {
   color: white;
@@ -122,14 +128,16 @@ header nav span {
   }
 }
 .footer-nav .subscribe div input {
-  width: 70px;
+  width: 40%;
   padding: 3px 0;
   border: 1px solid gray;
   background-color: black;
+  margin-left: 30%;
 }
 @media (min-width: 768px) {
   .footer-nav .subscribe div input {
     width: 150px;
+    margin-left: 0;
   }
 }
 .footer-nav .subscribe div button {
@@ -144,9 +152,11 @@ header nav span {
 }
 .footer-nav .subscribe div p {
   color: white;
-  font-size: 8px;
-  width: 90px;
+  font-size: 12px;
+  width: 200px;
   text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 @media (min-width: 768px) {
   .footer-nav .subscribe div p {
@@ -160,8 +170,10 @@ header nav span {
   }
 }
 
-.send {
-  margin-top: -30px;
+@media (min-width: 768px) {
+  .send {
+    margin-top: -30px;
+  }
 }
 
 .contact {
@@ -171,8 +183,10 @@ header nav span {
 .bottom-nav {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #1F1F1F;
+  color: white;
 }
 @media (min-width: 1024px) {
   .bottom-nav {
@@ -182,13 +196,14 @@ header nav span {
 .bottom-nav .icons {
   width: 30%;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   font-size: 10px;
 }
 @media (min-width: 768px) {
   .bottom-nav .icons {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 

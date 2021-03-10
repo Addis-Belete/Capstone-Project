@@ -1,4 +1,4 @@
-$color:rgb(153, 51, 51);
+$color:rgb(212,86,73);
 $color2:white;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
@@ -39,9 +39,12 @@ flex-direction: row;
 
   .subscribe {
     width: 100%;
-    display: flex;
+   
+@media (min-width: $breakpoint-tablet) {
+ display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
     div {
       h5 {
@@ -55,13 +58,15 @@ flex-direction: row;
       }
 
       input {
-        width: 70px;
+        width: 40%;
         padding: 3px 0;
         border: 1px solid gray;
         background-color: black;
+margin-left:30%;
 
         @media (min-width: $breakpoint-tablet) {
           width: 150px;
+margin-left: 0;
         }
       }
 
@@ -76,10 +81,13 @@ flex-direction: row;
       }
 
       p {
+
         color: $color2;
-        font-size: 8px;
-        width: 90px;
+        font-size: 12px;
+        width: 200px;
         text-align: center;
+margin:0 auto;
+padding-bottom: 10px;
 
         @media (min-width: $breakpoint-tablet) {
           font-size: 12px;
@@ -94,8 +102,12 @@ flex-direction: row;
   }
 }
 
-.send {
-  margin-top: -30px;
+.send { 
+ @media (min-width: $breakpoint-tablet) {
+margin-top: -30px;
+
+}
+  
 }
 
 .contact {
@@ -107,7 +119,8 @@ flex-direction: row;
   display: flex;
 flex-direction: row;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #1F1F1F;
+color:$color2;
 
   @media (min-width: $breakpoint-desktop) {
     justify-content: space-around;
@@ -122,8 +135,9 @@ flex-direction: row;
     font-size: 10px;
 
     @media (min-width: $breakpoint-tablet) {
-      font-size: 12px;
+      font-size: 15px;
     }
+
   }
 }
 
