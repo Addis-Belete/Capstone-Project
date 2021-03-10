@@ -148,18 +148,6 @@ footer .bottom-nav .bottom-left-nav p {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: url(Assets/background.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 header {
   background-color: #d45649;
   margin-top: -30px;
@@ -167,6 +155,7 @@ header {
 @media (min-width: 768px) {
   header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -180,6 +169,10 @@ header h1 {
   header h1 {
     padding-left: 40px;
   }
+}
+header h1 a {
+  text-decoration: none;
+  color: white;
 }
 header nav {
   width: 300px;
@@ -197,7 +190,6 @@ header nav {
   header nav {
     width: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: -20px;
@@ -234,6 +226,18 @@ header nav span {
     color: white;
     padding-left: 50px;
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(Assets/background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 main {

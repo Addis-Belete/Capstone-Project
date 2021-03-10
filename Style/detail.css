@@ -20,6 +20,10 @@ header h1 {
     padding-left: 40px;
   }
 }
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
 header nav {
   width: 300px;
   margin: 0 auto;

@@ -1,4 +1,5 @@
 @import "footer";
+@import "header";
 $color:rgb(212,86,73);
 $color2:white;
 $breakpoint-tablet:768px;
@@ -18,79 +19,6 @@ body {
   background-size: cover;
 }
 
-header {
-  background-color: $color;
-  margin-top: -30px;
-
-  @media (min-width: $breakpoint-tablet) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  h1 {
-    text-align: center;
-    color: $color2;
-    font-size: 40px;
-
-    @media (min-width: $breakpoint-tablet) {
-      padding-left: 40px;
-    }
-  }
-
-  nav {
-    width: 300px;
-    margin: 0 auto;
-    padding-bottom: 15px;
-
-    @media (min-width: $breakpoint-tablet) {
-      width: 400px;
-      padding-top: 20px;
-      justify-content: end;
-
-      @media (min-width: $breakpoint-desktop) {
-        width: 500px;
-        display: flex;
-flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: -20px;
-      }
-    }
-
-    i {
-      padding-left: 50px;
-      color: $color2;
-
-      @media (min-width: $breakpoint-tablet) {
-        font-size: 25px;
-
-        @media (min-width: $breakpoint-desktop) {
-          padding-top: 20px;
-        }
-      }
-    }
-
-    span {
-      display: none;
-
-      @media (min-width: $breakpoint-desktop) {
-        display: block;
-        margin-top: -25px;
-        padding-left: 80px;
-      }
-    }
-  }
-
-  a {
-    @media (min-width: $breakpoint-desktop) {
-      font-size: 20px;
-      text-decoration: none;
-      color: $color2;
-      padding-left: 50px;
-    }
-  }
-}
 
 main {
   background:
