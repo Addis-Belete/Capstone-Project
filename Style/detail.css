@@ -20,12 +20,12 @@ header h1 {
     padding-left: 40px;
   }
 }
-header h1 a {
+header h1 .logo-col {
   text-decoration: none;
   color: white;
 }
 @media (min-width: 1024px) {
-  header h1 a {
+  header h1 .logo-col {
     font-size: 30px;
   }
 }
@@ -194,7 +194,7 @@ header nav span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   color: white;
 }
 @media (min-width: 1024px) {
@@ -260,7 +260,7 @@ main div ul li {
 main div button {
   width: 100px;
   padding: 10px 10px;
-  background-color: #72ABDE;
+  background-color: #72abde;
   float: right;
   font-size: 10px;
   margin-top: -5px;

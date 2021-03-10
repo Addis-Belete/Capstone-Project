@@ -1,4 +1,4 @@
-$color:rgb(212,86,73);
+$color:rgb(212, 86, 73);
 $color2:white;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
@@ -9,7 +9,7 @@ $breakpoint-desktop:1024px;
   ul {
     width: 100%;
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     padding: 5px 0;
     justify-content: space-around;
     border-top: 1px solid gray;
@@ -39,16 +39,16 @@ flex-direction: row;
 
   .subscribe {
     width: 100%;
-   
-@media (min-width: $breakpoint-tablet) {
- display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
+    @media (min-width: $breakpoint-tablet) {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
 
     div {
       h5 {
-        color:$color2;
+        color: $color2;
         font-size: 10px;
         text-align: center;
 
@@ -62,11 +62,11 @@ flex-direction: row;
         padding: 3px 0;
         border: 1px solid gray;
         background-color: black;
-margin-left:30%;
+        margin-left: 30%;
 
         @media (min-width: $breakpoint-tablet) {
           width: 150px;
-margin-left: 0;
+          margin-left: 0;
         }
       }
 
@@ -81,13 +81,12 @@ margin-left: 0;
       }
 
       p {
-
         color: $color2;
         font-size: 12px;
         width: 200px;
         text-align: center;
-margin:0 auto;
-padding-bottom: 10px;
+        margin: 0 auto;
+        padding-bottom: 10px;
 
         @media (min-width: $breakpoint-tablet) {
           font-size: 12px;
@@ -102,12 +101,10 @@ padding-bottom: 10px;
   }
 }
 
-.send { 
- @media (min-width: $breakpoint-tablet) {
-margin-top: -30px;
-
-}
-  
+.send {
+  @media (min-width: $breakpoint-tablet) {
+    margin-top: -30px;
+  }
 }
 
 .contact {
@@ -117,10 +114,10 @@ margin-top: -30px;
 .bottom-nav {
   width: 100%;
   display: flex;
-flex-direction: row;
+  flex-direction: row;
   justify-content: space-between;
-  background-color: #1F1F1F;
-color:$color2;
+  background-color: #1f1f1f;
+  color: $color2;
 
   @media (min-width: $breakpoint-desktop) {
     justify-content: space-around;
@@ -129,7 +126,7 @@ color:$color2;
   .icons {
     width: 50%;
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-size: 10px;
@@ -137,7 +134,6 @@ flex-direction: row;
     @media (min-width: $breakpoint-tablet) {
       font-size: 15px;
     }
-
   }
 }
 

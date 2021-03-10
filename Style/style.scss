@@ -1,6 +1,6 @@
 @import "footer";
 @import "header";
-$color:rgb(212,86,73);
+$color:rgb(212, 86, 73);
 $color2:white;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
@@ -18,7 +18,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 
 main {
   background:
@@ -60,7 +59,6 @@ main {
       margin: 8px 0;
       display: inline-block;
       border: 1px solid #ccc;
-
     }
 
     input[type=button] {
@@ -75,13 +73,14 @@ main {
       @media (min-width: $breakpoint-tablet) {
         width: 200px;
         font-size: 17px;
-background-color:blue;
-opacity: 0.5;
+        background-color: blue;
+        opacity: 0.5;
       }
- @media (min-width: $breakpoint-desktop){
-background-color: $color;
-opacity: 0.5;
-}
+
+      @media (min-width: $breakpoint-desktop) {
+        background-color: $color;
+        opacity: 0.5;
+      }
     }
 
     ul {
@@ -105,18 +104,16 @@ opacity: 0.5;
     margin: 20px auto 0 auto;
 
     button {
-width:60%;
-margin-left: 20%;
+      width: 60%;
+      margin-left: 20%;
       padding: 10px;
-opacity: 0.7;
+      opacity: 0.7;
 
       @media (min-width: $breakpoint-tablet) {
         width: 400px;
-        padding:20px 0;
+        padding: 20px 0;
         font-size: 30px;
-margin-left: -100px;
-
-
+        margin-left: -100px;
       }
     }
   }
@@ -170,7 +167,7 @@ section {
 
 .register {
   display: flex;
-flex-direction: row;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(226, 127, 101);
@@ -188,7 +185,7 @@ flex-direction: row;
     }
 
     p {
-      color:$color2;
+      color: $color2;
 
       @media (min-width: $breakpoint-desktop) {
         font-size: large;
@@ -220,12 +217,12 @@ flex-direction: row;
 }
 
 .register1 {
-  background-color:rgb(81, 156, 216);
+  background-color: rgb(81, 156, 216);
   margin-top: 0;
 }
 
 .register2 {
-  background-color:rgb(152, 165, 166);
+  background-color: rgb(152, 165, 166);
   margin-top: 0;
 }
 

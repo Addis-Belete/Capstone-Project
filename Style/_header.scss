@@ -1,4 +1,4 @@
-$color:rgb(212,86,73);
+$color:rgb(212, 86, 73);
 $color2:white;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
@@ -9,7 +9,7 @@ header {
 
   @media (min-width: $breakpoint-tablet) {
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -18,19 +18,19 @@ flex-direction: row;
     text-align: center;
     color: $color2;
     font-size: 40px;
+
     @media (min-width: $breakpoint-tablet) {
       padding-left: 40px;
     }
 
-a{
-text-decoration: none;
-color:$color2;
- @media (min-width: $breakpoint-desktop){
-font-size: 30px;
+    .logo-col {
+      text-decoration: none;
+      color: $color2;
 
-}
-}
-
+      @media (min-width: $breakpoint-desktop) {
+        font-size: 30px;
+      }
+    }
   }
 
   nav {
