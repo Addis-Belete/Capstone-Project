@@ -331,7 +331,7 @@ main div button {
 @media (min-width: 768px) {
   main div button {
     width: 400px;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 30px;
     margin-left: -100px;
   }
