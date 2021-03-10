@@ -24,6 +24,11 @@ header h1 a {
   text-decoration: none;
   color: white;
 }
+@media (min-width: 1024px) {
+  header h1 a {
+    font-size: 30px;
+  }
+}
 header nav {
   width: 300px;
   margin: 0 auto;
