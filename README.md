@@ -44,7 +44,6 @@ To get a local copy up and running follow these simple example steps.
 
 - git clone git@github.com:Addis0943/Capstone-Project.git
 - cd Capstone-Project
-- git checkout Capstone-Project
 
 ### Linters.
 

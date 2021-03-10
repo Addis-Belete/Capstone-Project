@@ -293,6 +293,11 @@ footer .bottom-nav .bottom-left-nav p {
     width: 80px;
   }
 }
+@media (min-width: 1024px) {
+  .filter div input {
+    width: 100%;
+  }
+}
 .filter div select {
   padding: 5px;
   background-color: white;
