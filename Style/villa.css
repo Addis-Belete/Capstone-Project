@@ -91,17 +91,28 @@ header nav span {
 }
 .footer-nav ul {
   width: 100%;
-  display: flex;
-  flex-direction: row;
   padding: 10px 0;
-  justify-content: space-around;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
+@media (min-width: 768px) {
+  .footer-nav ul {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+  }
+}
 .footer-nav ul li {
-  font-size: 8px;
+  width: 65px;
+  font-size: 12px;
   list-style: none;
   text-decoration: none;
+  font-family: sans-serif;
+  padding: 5px 0;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .footer-nav ul li {
@@ -118,7 +129,6 @@ header nav span {
 .footer-nav ul li a {
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
 }
 .footer-nav .subscribe {
   width: 100%;
@@ -245,6 +255,87 @@ footer .bottom-nav .bottom-left-nav p {
   }
 }
 
+.filter {
+  background-color: #eee;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .filter {
+    padding: 20px 0;
+  }
+}
+.filter h2 {
+  width: 80%;
+  margin-left: 10%;
+  font-weight: lighter;
+  color: gray;
+  font-family: sans-serif;
+}
+.filter div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 10%;
+}
+.filter div label {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.filter div input {
+  padding: 6px;
+  background-color: white;
+  border: 1px solid gray;
+  margin-top: 5px;
+}
+@media (min-width: 768px) {
+  .filter div input {
+    width: 80px;
+  }
+}
+.filter div select {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid gray;
+  margin-top: 5px;
+  color: skyblue;
+}
+.filter div button {
+  padding: 6px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  color: white;
+}
+@media (min-width: 1024px) {
+  .filter div button {
+    margin-top: 22px;
+  }
+}
+
+.clear-filter {
+  background-color: #e4a654;
+}
+
+.clear {
+  background-color: #62a1d6;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  form {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: -5px;
+  }
+}
+
 @media (min-width: 768px) {
   main {
     display: grid;
@@ -259,18 +350,18 @@ footer .bottom-nav .bottom-left-nav p {
     margin-left: 0;
   }
 }
-main div img {
+main .asset img {
   width: 100%;
   height: auto;
   margin-top: 20px;
 }
 @media (min-width: 768px) {
-  main div img {
+  main .asset img {
     max-width: 100%;
     height: 200px;
   }
 }
-main div p {
+main .asset p {
   width: 30%;
   background-color: #933;
   color: white;
@@ -278,7 +369,7 @@ main div p {
   text-align: center;
   font-family: sans-serif;
 }
-main div a {
+main .asset a {
   color: white;
   text-decoration: none;
 }

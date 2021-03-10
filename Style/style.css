@@ -4,17 +4,28 @@
 }
 .footer-nav ul {
   width: 100%;
-  display: flex;
-  flex-direction: row;
   padding: 10px 0;
-  justify-content: space-around;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
+@media (min-width: 768px) {
+  .footer-nav ul {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+  }
+}
 .footer-nav ul li {
-  font-size: 8px;
+  width: 65px;
+  font-size: 12px;
   list-style: none;
   text-decoration: none;
+  font-family: sans-serif;
+  padding: 5px 0;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .footer-nav ul li {
@@ -31,7 +42,6 @@
 .footer-nav ul li a {
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
 }
 .footer-nav .subscribe {
   width: 100%;
