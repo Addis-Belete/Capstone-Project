@@ -1,5 +1,6 @@
 $color:rgb(212, 86, 73);
 $color2:white;
+$fonts:sans-serif;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 
@@ -18,6 +19,7 @@ header {
     text-align: center;
     color: $color2;
     font-size: 40px;
+    font-family: $fonts;
 
     @media (min-width: $breakpoint-tablet) {
       padding-left: 40px;
@@ -82,6 +84,7 @@ header {
       text-decoration: none;
       color: $color2;
       padding-left: 50px;
+      font-family: $fonts;
     }
   }
 }

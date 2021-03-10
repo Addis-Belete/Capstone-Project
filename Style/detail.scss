@@ -1,5 +1,6 @@
 @import "header";
 @import "footer";
+$fonts:sans-serif;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 
@@ -8,6 +9,7 @@ main {
     h1 {
       color: #933;
       margin-left: 20px;
+      font-family: $fonts;
 
       @media (min-width: $breakpoint-tablet) {
         margin-bottom: -20px;
@@ -28,6 +30,7 @@ main {
         margin-top: 5px;
         text-align: center;
         margin-left: -20px;
+        font-family: $fonts;
       }
     }
 
@@ -72,6 +75,7 @@ main {
       color: #933;
       text-align: center;
       font-size: 17px;
+      font-family: $fonts;
     }
 
     img {
@@ -92,6 +96,7 @@ main {
   p {
     margin-top: 10px;
     clear: right;
+    font-family: $fonts;
 
     @media (min-width: $breakpoint-desktop) {
       width: 90%;

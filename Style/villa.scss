@@ -1,5 +1,6 @@
 @import "header";
 @import "footer";
+$fonts:sans-serif;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 
@@ -34,6 +35,7 @@ main {
       color: white;
       padding: 10px;
       text-align: center;
+      font-family: $fonts;
     }
 
     a {

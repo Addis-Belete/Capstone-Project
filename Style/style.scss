@@ -2,6 +2,7 @@
 @import "header";
 $color:rgb(212, 86, 73);
 $color2:white;
+$fonts:sans-serif;
 $breakpoint-tablet:768px;
 $breakpoint-desktop:1024px;
 
@@ -36,6 +37,7 @@ main {
     padding-top: 60px;
     margin-top: 0;
     color: $color2;
+    font-family: $fonts;
 
     @media (min-width: $breakpoint-tablet) {
       font-size: 3vw;
@@ -125,6 +127,7 @@ section {
     color: #933;
     font-size: 13px;
     text-align: center;
+    font-family: $fonts;
 
     @media (min-width: $breakpoint-tablet) {
       font-size: 25px;
@@ -145,6 +148,7 @@ section {
     h3 {
       font-size: 13px;
       text-align: center;
+      font-family: $fonts;
 
       @media (min-width: $breakpoint-tablet) {
         font-size: 20px;
@@ -157,6 +161,7 @@ section {
       color: gray;
       margin: 0 auto;
       text-align: center;
+      font-family: $fonts;
 
       @media (min-width: $breakpoint-tablet) {
         font-size: 17px;
@@ -178,6 +183,7 @@ section {
 
     h4 {
       color: #f2f2f2;
+      font-family: $fonts;
 
       @media (min-width: $breakpoint-desktop) {
         font-size: 30px;
@@ -186,6 +192,7 @@ section {
 
     p {
       color: $color2;
+      font-family: $fonts;
 
       @media (min-width: $breakpoint-desktop) {
         font-size: large;

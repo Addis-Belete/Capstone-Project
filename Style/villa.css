@@ -14,6 +14,7 @@ header h1 {
   text-align: center;
   color: white;
   font-size: 40px;
+  font-family: sans-serif;
 }
 @media (min-width: 768px) {
   header h1 {
@@ -80,17 +81,19 @@ header nav span {
     text-decoration: none;
     color: white;
     padding-left: 50px;
+    font-family: sans-serif;
   }
 }
 
 .footer-nav {
   background-color: black;
+  margin-top: -16px;
 }
 .footer-nav ul {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding: 5px 0;
+  padding: 10px 0;
   justify-content: space-around;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -115,6 +118,7 @@ header nav span {
 .footer-nav ul li a {
   color: white;
   text-decoration: none;
+  font-family: sans-serif;
 }
 .footer-nav .subscribe {
   width: 100%;
@@ -130,6 +134,7 @@ header nav span {
   color: white;
   font-size: 10px;
   text-align: center;
+  font-family: sans-serif;
 }
 @media (min-width: 768px) {
   .footer-nav .subscribe div h5 {
@@ -141,7 +146,7 @@ header nav span {
   padding: 3px 0;
   border: 1px solid gray;
   background-color: black;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 @media (min-width: 768px) {
   .footer-nav .subscribe div input {
@@ -166,6 +171,7 @@ header nav span {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 10px;
+  font-family: sans-serif;
 }
 @media (min-width: 768px) {
   .footer-nav .subscribe div p {
@@ -215,11 +221,17 @@ header nav span {
     font-size: 15px;
   }
 }
+@media (min-width: 1024px) {
+  .bottom-nav .icons {
+    font-size: 20px;
+  }
+}
 
 footer .bottom-nav .bottom-left-nav p {
   width: 70%;
   font-size: 8px;
   margin-left: 50px;
+  font-family: sans-serif;
 }
 @media (min-width: 768px) {
   footer .bottom-nav .bottom-left-nav p {
@@ -264,6 +276,7 @@ main div p {
   color: white;
   padding: 10px;
   text-align: center;
+  font-family: sans-serif;
 }
 main div a {
   color: white;
