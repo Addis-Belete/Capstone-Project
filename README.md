@@ -10,7 +10,6 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
 - HTML &
 - CSS
 
@@ -45,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 - git clone git@github.com:Addis0943/Capstone-Project.git
 - cd Capstone-Project
-- git checkout -b
+- git checkout Capstone-Project
 
 ### Linters.
 
