@@ -4,7 +4,7 @@
 
 > Delala is a web page app that is built by taken Patashule's web page as a reference. the layout is fully taken from Patashule. but the content is different.it is rendered to three screen sizes. I used HTML and CSS to build the web page.
 
-![screenshot](./Assets/delala.png)
+![screenshot](./Assets/delala1.png)
 
 Additional description about the project and its features.
 
