@@ -1,0 +1,251 @@
+@import "footer";
+@import "header";
+$color:rgb(212, 86, 73);
+$color2:white;
+$fonts:sans-serif;
+$breakpoint-tablet:768px;
+$breakpoint-desktop:1024px;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    url(Assets/background.jpeg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  background:
+    url(https://lh3.googleusercontent.com/GXDtEzB4C7AyP4y6QNNQ7aI29htoZ2Ke3GiR3jNNGTLb1A3HtlkZAwpg550zoIVvdyRCyQ=s128) no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #933;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5vw;
+    padding-top: 60px;
+    margin-top: 0;
+    color: $color2;
+    font-family: $fonts;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 3vw;
+    }
+  }
+
+  form {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    opacity: 0.7;
+
+    label {
+      text-transform: uppercase;
+      display: block;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+    }
+
+    input[type=button] {
+      width: 100%;
+      background-color: $color;
+      color: $color2;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+
+      @media (min-width: $breakpoint-tablet) {
+        width: 200px;
+        font-size: 17px;
+        background-color: blue;
+        opacity: 0.5;
+      }
+
+      @media (min-width: $breakpoint-desktop) {
+        background-color: $color;
+        opacity: 0.5;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: none;
+
+      li {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  div {
+    width: 200px;
+    margin: 20px auto 0 auto;
+
+    button {
+      width: 60%;
+      margin-left: 20%;
+      padding: 10px;
+      opacity: 0.7;
+
+      @media (min-width: $breakpoint-tablet) {
+        width: 400px;
+        padding: 10px 0;
+        font-size: 30px;
+        margin-left: -100px;
+      }
+    }
+  }
+}
+
+section {
+  h2 {
+    margin-top: 20px;
+    color: #933;
+    font-size: 13px;
+    text-align: center;
+    font-family: $fonts;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 25px;
+    }
+  }
+
+  div {
+    i {
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 30px;
+      }
+    }
+
+    h3 {
+      font-size: 13px;
+      text-align: center;
+      font-family: $fonts;
+
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      width: 90%;
+      font-size: 12px;
+      color: gray;
+      margin: 0 auto;
+      text-align: center;
+      font-family: $fonts;
+
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(226, 127, 101);
+  margin-top: 20px;
+
+  div {
+    padding: 20px;
+
+    h4 {
+      color: #f2f2f2;
+      font-family: $fonts;
+
+      @media (min-width: $breakpoint-desktop) {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      color: $color2;
+      font-family: $fonts;
+
+      @media (min-width: $breakpoint-desktop) {
+        font-size: large;
+        margin-top: -20px;
+      }
+    }
+
+    button {
+      color: #933;
+      padding: 5px;
+
+      @media (min-width: $breakpoint-desktop) {
+        font-size: large;
+        font-weight: bolder;
+      }
+    }
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    @media (min-width: $breakpoint-desktop) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+
+.register1 {
+  background-color: rgb(81, 156, 216);
+  margin-top: 0;
+}
+
+.register2 {
+  background-color: rgb(152, 165, 166);
+  margin-top: 0;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  form {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .how-tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.row {
+  width: 100%;
+}

@@ -1,0 +1,487 @@
+.footer-nav {
+  background-color: black;
+  margin-top: -16px;
+}
+.footer-nav ul {
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+@media (min-width: 768px) {
+  .footer-nav ul {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+  }
+}
+.footer-nav ul li {
+  width: 65px;
+  font-size: 12px;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 5px 0;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .footer-nav ul li {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .footer-nav ul li {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav .subscribe {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.footer-nav .subscribe div h5 {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div h5 {
+    font-size: 17px;
+  }
+}
+.footer-nav .subscribe div input {
+  width: 40%;
+  padding: 3px 0;
+  border: 1px solid gray;
+  background-color: black;
+  margin-left: 25%;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div input {
+    width: 150px;
+    margin-left: 0;
+  }
+}
+.footer-nav .subscribe div button {
+  margin-left: -5px;
+  padding: 3px 7px;
+  background-color: gray;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div button {
+    padding: 3px 15px;
+  }
+}
+.footer-nav .subscribe div p {
+  color: white;
+  font-size: 12px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  .footer-nav .subscribe div p {
+    font-size: 12px;
+    width: 200px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .footer-nav .subscribe div p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .send {
+    margin-top: -30px;
+  }
+}
+
+.contact {
+  margin-top: -10px;
+}
+
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  color: white;
+}
+@media (min-width: 1024px) {
+  .bottom-nav {
+    justify-content: space-around;
+  }
+}
+.bottom-nav .icons {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  .bottom-nav .icons {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .bottom-nav .icons {
+    font-size: 20px;
+  }
+}
+
+footer .bottom-nav .bottom-left-nav p {
+  width: 70%;
+  font-size: 8px;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  footer .bottom-nav .bottom-left-nav p {
+    font-size: 12px;
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  footer .bottom-nav .bottom-left-nav p {
+    font-size: 15px;
+  }
+}
+
+header {
+  background-color: #d45649;
+  margin-top: -30px;
+}
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  header h1 {
+    padding-left: 40px;
+  }
+}
+header h1 .logo-col {
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 1024px) {
+  header h1 .logo-col {
+    font-size: 30px;
+  }
+}
+header nav {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+@media (min-width: 768px) {
+  header nav {
+    width: 400px;
+    padding-top: 20px;
+    justify-content: end;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  header nav {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+}
+header nav i {
+  padding-left: 50px;
+  color: white;
+}
+@media (min-width: 768px) {
+  header nav i {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  header nav i {
+    padding-top: 20px;
+  }
+}
+header nav span {
+  display: none;
+}
+@media (min-width: 1024px) {
+  header nav span {
+    display: block;
+    margin-top: -25px;
+    padding-left: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    font-family: sans-serif;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(Assets/background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  background: url(https://lh3.googleusercontent.com/GXDtEzB4C7AyP4y6QNNQ7aI29htoZ2Ke3GiR3jNNGTLb1A3HtlkZAwpg550zoIVvdyRCyQ=s128) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #933;
+}
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5vw;
+  padding-top: 60px;
+  margin-top: 0;
+  color: white;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  main h2 {
+    font-size: 3vw;
+  }
+}
+main form {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  opacity: 0.7;
+}
+main form label {
+  text-transform: uppercase;
+  display: block;
+}
+main form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+main form input[type=button] {
+  width: 100%;
+  background-color: #d45649;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  main form input[type=button] {
+    width: 200px;
+    font-size: 17px;
+    background-color: blue;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 1024px) {
+  main form input[type=button] {
+    background-color: #d45649;
+    opacity: 0.5;
+  }
+}
+main form ul {
+  list-style: none;
+  display: none;
+}
+main form ul li {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+main form ul li a {
+  color: black;
+  text-decoration: none;
+}
+main div {
+  width: 200px;
+  margin: 20px auto 0 auto;
+}
+main div button {
+  width: 60%;
+  margin-left: 20%;
+  padding: 10px;
+  opacity: 0.7;
+}
+@media (min-width: 768px) {
+  main div button {
+    width: 400px;
+    padding: 10px 0;
+    font-size: 30px;
+    margin-left: -100px;
+  }
+}
+
+section h2 {
+  margin-top: 20px;
+  color: #933;
+  font-size: 13px;
+  text-align: center;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  section h2 {
+    font-size: 25px;
+  }
+}
+section div i {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  section div i {
+    font-size: 30px;
+  }
+}
+section div h3 {
+  font-size: 13px;
+  text-align: center;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  section div h3 {
+    font-size: 20px;
+  }
+}
+section div p {
+  width: 90%;
+  font-size: 12px;
+  color: gray;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  section div p {
+    font-size: 17px;
+  }
+}
+
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e27f65;
+  margin-top: 20px;
+}
+.register div {
+  padding: 20px;
+}
+.register div h4 {
+  color: #f2f2f2;
+  font-family: sans-serif;
+}
+@media (min-width: 1024px) {
+  .register div h4 {
+    font-size: 30px;
+  }
+}
+.register div p {
+  color: white;
+  font-family: sans-serif;
+}
+@media (min-width: 1024px) {
+  .register div p {
+    font-size: large;
+    margin-top: -20px;
+  }
+}
+.register div button {
+  color: #933;
+  padding: 5px;
+}
+@media (min-width: 1024px) {
+  .register div button {
+    font-size: large;
+    font-weight: bolder;
+  }
+}
+.register img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+@media (min-width: 1024px) {
+  .register img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.register1 {
+  background-color: #519cd8;
+  margin-top: 0;
+}
+
+.register2 {
+  background-color: #98a5a6;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .how-tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.row {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,192 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Delala Web page</title>
+    <link rel="stylesheet" href="Style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/02ede8a396.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>
+          <a href="index.html" class="logo-col"
+            ><i class="fas fa-home"></i><span>DELALA</span></a
+          >
+        </h1>
+      </div>
+      <nav>
+        <a href="apartment.html"
+          ><i class="fas fa-search"></i><span>Homes</span></a
+        >
+        <a href="#"><i class="far fa-user"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-rss"></i><span>Blogs</span></a>
+        <a href="#"><i class="fas fa-align-justify"></i><span>More</span></a>
+      </nav>
+    </header>
+    <main>
+      <h2>Delala...Your Gate to Homes in Addis Ababa</h2>
+      <form>
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myFunction()"
+          title="Type in a house"
+          placeholder="SEARCH FOR HOUSES..."
+        />
+        <input type="button" value="Search" onclick="showDiv()" id="rich" />
+
+        <ul id="myUL">
+          <li><a href="#">Villa</a></li>
+          <li><a href="html/apartment.html">Apartments</a></li>
+
+          <li><a href="#">Condominuim</a></li>
+          <li><a href="#">One bedroom</a></li>
+
+          <li><a href="#">Two bedroom</a></li>
+          <li><a href="#">Three bedroom</a></li>
+          <li><a href="#">Four bedroom</a></li>
+        </ul>
+      </form>
+      <div>
+        <button type="button">How It Works</button>
+      </div>
+    </main>
+
+    <section>
+      <h2>DELALA WORKS IN FOUR SIMPLE STEPS</h2>
+      <div class="how-tablet">
+        <div>
+          <h3><i class="fas fa-search"></i> <br />1-SEARCH</h3>
+          <p>
+            It is a simple on. on Delala homepage enter the type of home you are
+            looking for and click on search. Alternatively click on the search
+            link on the top menu to view the list of all house types.
+          </p>
+        </div>
+        <div>
+          <h3><i class="fas fa-map-marked"></i> <br />2-LOCATE</h3>
+
+          <p>
+            It is a simple on. on Delala homepage enter the type of home you are
+            looking for and click on search. Alternatively click on the search
+            link on the top menu to view the list of all house types.
+          </p>
+        </div>
+        <div>
+          <h3><i class="fas fa-file-contract"></i> <br />3-APPLY</h3>
+          <p>
+            It is a simple on. on Delala homepage enter the type of home you are
+            looking for and click on search. Alternatively click on the search
+            link on the top menu to view the list of all house types.
+          </p>
+        </div>
+        <div>
+          <h3><i class="fas fa-umbrella-beach"></i> <br />1-RELAX</h3>
+          <p>
+            It is a simple on. on Delala homepage enter the type of home you are
+            looking for and click on search. Alternatively click on the search
+            link on the top menu to view the list of all house types.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="register">
+      <div>
+        <h4>Over 10,000 House registered with us</h4>
+
+        <p>find a house by using our filtered search engine</p>
+
+        <button type="button">Find a house</button>
+      </div>
+
+      <img src="Assets/villa4.jpeg" alt="house" />
+    </div>
+
+    <div class="register register2">
+      <div>
+        <h4>no need to take matatus to find house in the city</h4>
+
+        <p>click on the search button and youre all set</p>
+
+        <button type="button">find a house near you</button>
+      </div>
+      <img src="Assets/villa8.jpeg" alt="house" />
+    </div>
+
+    <div class="register register1">
+      <div>
+        <h4>Anytime Anywhere Any way!</h4>
+
+        <p>
+          very convenient platforms that cut across any device incliding our
+          mobile ready web app and our mobile app coming soon to your appstore
+        </p>
+      </div>
+      <img src="Assets/villa1.jpeg" alt="house" />
+    </div>
+    <!--Footer-->
+    <footer>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SEARCH</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">ADVERTISE</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#">FACEBOOK</a></li>
+          <li><a href="#">TWITTER</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">GOOGLE+</a></li>
+        </ul>
+        <div class="subscribe">
+          <div class="send">
+            <h5>SUBSCRIBE</h5>
+            <input type="text" />
+            <button type="button">Send</button>
+          </div>
+          <div class="contact">
+            <h5>CONTACT</h5>
+            <p>Have a question or submission?</p>
+            <p>addis.bel@gmail.com</p>
+          </div>
+          <div>
+            <h5>ABOUT</h5>
+            <p>
+              Delala is an online platform that assigns Ethiopians to find a
+              suitable house by simply searching by type of house.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-nav">
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-wikipedia-w"></i>
+          <i class="fab fa-google-plus-g"></i>
+          <i class="fab fa-staylinked"></i>
+        </div>
+        <div class="bottom-left-nav">
+          <p>
+            "&copy;" Delala 2020. ALL RIGHTS RESERVED
+            <i class="fab fa-staylinked"></i>ICONIUM DIGITAL<span
+              >LOVE AND AWESOMENESS</span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--Footer-->
+    <script src="script/script.js"></script>
+    <script src="script/script2.js"></script>
+  </body>
 </html>
